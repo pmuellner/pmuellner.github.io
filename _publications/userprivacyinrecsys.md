@@ -1,18 +1,15 @@
 ---
-title: "Support the underground: characteristics of beyond-mainstream music listeners"
-authors: "Dominik Kowald, Peter Müllner, Eva Zangerle, Christine Bauer, Markus Schedl, and Elisabeth Lex"
+title: "User Privacy in Recommender Systems"
+authors: "Peter Müllner"
 collection: publications
-permalink: /publication/supporttheunderground
-excerpt: "To better understand the characteristics of beyond-mainstream music listeners, we analyze users of the Last.fm platform. Our analysis reveals four subgroups of beyond-mainstream music listeners that differ with respect to their preferred music and their demographic characteristics. Also, we find significant differences between the groups with respect to the quality of music recommendations. Specifically, our results show a positive correlation between a subgroup’s openness towards music listened to by members of other subgroups and recommendation accuracy."
-date: 2021-03-30
-venue: 'EPJ Data Science'
-paperurl: 'http://pmuellner.github.io/files/supporttheunderground.pdf'
-citation: 'Kowald, D., Muellner, P., Zangerle, E. <i>et al.</i> Support the underground: characteristics of beyond-mainstream music listeners. <i>EPJ Data Sci.</i> 10, 14 (2021). https://doi.org/10.1140/epjds/s13688-021-00268-9'
-codeurl: https://github.com/pmuellner/supporttheunderground
+permalink: /publication/userprivacyinrecsys
+excerpt: "The utilization of user data for generating recommendations can pose severe threats to user privacy, e.g., the inadvertent leakage of user data to untrusted parties or other users. Instead of the plain application of privacy-enhancing techniques, which could lead to decreased accuracy, we tackle the problem itself, i.e., the utilization of user data. With this, we aim to equip recommender systems with means to provide high-quality recommendations that respect users’ privacy."
+date: 2023-03-16
+venue: '45th European Conference on Information Retrieval, ECIR'23'
+paperurl: 'http://pmuellner.github.io/files/userprivacyinrecsys.pdf'
+citation: 'Müllner, P. (2023, March). User Privacy in Recommender Systems. In Advances in Information Retrieval: 45th European Conference on Information Retrieval, ECIR 2023, Dublin, Ireland, April 2–6, 2023, Proceedings, Part III (pp. 456-461). Cham: Springer Nature Switzerland.'
+codeurl: https://github.com/pmuellner/userprivacyinrecsys
 slides:
 ---
 
-Music recommender systems have become an integral part of music streaming services such as Spotify and Last.fm to assist users navigating the extensive music collections offered by them. However, while music listeners interested in mainstream music are traditionally served well by music recommender systems, users interested in music beyond the mainstream (i.e., non-popular music) rarely receive relevant recommendations. In this paper, we study the characteristics of beyond-mainstream music and music listeners and analyze to what extent these characteristics impact the quality of music recommendations provided. Therefore, we create a novel dataset consisting of Last.fm listening histories of several thousand beyond-mainstream music listeners, which we enrich with additional metadata describing music tracks and music listeners. Our analysis of this dataset shows four subgroups within the group of beyond-mainstream music listeners that differ not only with respect to their preferred music but also with their demographic characteristics. Furthermore, we evaluate the quality of music recommendations that these subgroups are provided with four different recommendation algorithms where we find significant differences between the groups. Specifically, our results show a positive correlation between a subgroup’s openness towards music listened to by members of other subgroups and recommendation accuracy. We believe that our findings provide valuable insights for developing improved user models and recommendation approaches to better serve beyond-mainstream music listeners.
-
-
-Our analysis of this dataset shows four subgroups within the group of beyond-mainstream music listeners that differ not only with respect to their preferred music but also with their demographic characteristics. Furthermore, we evaluate the quality of music recommendations that these subgroups are provided with four different recommendation algorithms where we find significant differences between the groups. Specifically, our results show a positive correlation between a subgroup’s openness towards music listened to by members of other subgroups and recommendation accuracy. We believe that our findings provide valuable insights for developing improved user models and recommendation approaches to better serve beyond-mainstream music listeners.
+Recommender systems process abundances of user data to generate recommendations that fit well to each individual user. This utilization of user data can pose severe threats to user privacy, e.g., the inadvertent leakage of user data to untrusted parties or other users. Moreover, this data can be used to reveal a user’s identity, or to infer very private information as, e.g., gender. Instead of the plain application of privacy-enhancing techniques, which could lead to decreased accuracy, we tackle the problem itself, i.e., the utilization of user data. With this, we aim to equip recommender systems with means to provide high-quality recommendations that respect users’ privacy.

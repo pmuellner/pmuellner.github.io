@@ -1,15 +1,15 @@
 ---
-title: "Towards employing recommender systems for supporting data and algorithm sharing"
-authors: "Peter Müllner, Stefan Schmerda, Dieter Theiler, Stefanie Lindstaedt, and Dominik Kowald"
+title: "User Privacy in Recommender Systems"
+authors: "Peter Müllner"
 collection: publications
-permalink: /publication/employingrecsysfordataandalgorithms
-#excerpt: "The efficient sharing of data and algorithms relies on the active interplay between users, data providers, and algorithm providers. We identify six recommendation scenarios for supporting data and algorithm sharing, where four of these scenarios substantially differ from the traditional recommendation scenarios in e-commerce applications. We find that collaboration-based recommendations provide the most accurate recommendations in all scenarios. Plus, the recommendation accuracy strongly depends on the specific scenario, e.g., algorithm recommendations for users are a more difficult problem than algorithm recommendations for datasets. Finally, the content-based approach generates the least popularity-biased recommendations that cover the most datasets and algorithms."
-date: 2021-03-30
-venue: '1st International Workshop on Data Economy (DE 2022)'
-paperurl: 'http://pmuellner.github.io/files/employingrecsysfordataandalgorithms.pdf'
-#citation: 'Peter Müllner, Stefan Schmerda, Dieter Theiler, Stefanie Lindstaedt, and Dominik Kowald. 2022. Towards employing recommender systems for supporting data and algorithm sharing. In Proceedings of the 1st International Workshop on Data Economy (DE 2022). Association for Computing Machinery, New York, NY, USA, 8–14. https://doi.org/10.1145/3565011.3569055'
-#codeurl: 
-#slides:
+permalink: /publication/userprivacyinrecsys
+excerpt: "The utilization of user data for generating recommendations can pose severe threats to user privacy, e.g., the inadvertent leakage of user data to untrusted parties or other users. Instead of the plain application of privacy-enhancing techniques, which could lead to decreased accuracy, we tackle the problem itself, i.e., the utilization of user data. With this, we aim to equip recommender systems with means to provide high-quality recommendations that respect users’ privacy."
+date: 2023-03-16
+venue: '45th European Conference on Information Retrieval, ECIR 2023'
+paperurl: 'http://pmuellner.github.io/files/userprivacyinrecsys.pdf'
+citation: 'Müllner, P. (2023, March). User Privacy in Recommender Systems. In Advances in Information Retrieval: 45th European Conference on Information Retrieval, ECIR 2023, Dublin, Ireland, April 2–6, 2023, Proceedings, Part III (pp. 456-461). Cham: Springer Nature Switzerland.'
+codeurl: https://github.com/pmuellner/userprivacyinrecsys
+slides:
 ---
 
-
+Recommender systems process abundances of user data to generate recommendations that fit well to each individual user. This utilization of user data can pose severe threats to user privacy, e.g., the inadvertent leakage of user data to untrusted parties or other users. Moreover, this data can be used to reveal a user’s identity, or to infer very private information as, e.g., gender. Instead of the plain application of privacy-enhancing techniques, which could lead to decreased accuracy, we tackle the problem itself, i.e., the utilization of user data. With this, we aim to equip recommender systems with means to provide high-quality recommendations that respect users’ privacy.

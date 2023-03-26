@@ -76,11 +76,13 @@ layout: default
         {% endif %}
         
              
-        {% if page.citation and page.paperurl %}
+        <!--{% if page.citation and page.paperurl %}
           <p>{{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
         {% elsif page.citation %}
           <p>{{ page.citation }} </p>
-        {% endif %}
+        {% endif %}-->
+        {% if page.citation %}
+          <p>{{ page.citation }} </p>
     
         </header>
       {% endunless %}

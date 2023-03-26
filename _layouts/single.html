@@ -56,13 +56,13 @@ layout: default
               <a href="{{ page.codeurl }}" rel="permalink">code</a>
           {%- endif -%}
           {%- if page.slides -%}
-              {%- if page.paperurl or page.codeurl or page.youtube or page.othervideo or page.externalvideo -%}
+              {%- if page.paperurl or page.codeurl -%}
               ,
               {% endif %}
               <a href="{{ page.slides }}" rel="permalink">slides</a>
           {%- endif -%}
           {%- if page.poster -%}
-              {%- if page.paperurl or page.codeurl or page.youtube or page.othervideo or page.slides or page.externalvideo -%}
+              {%- if page.paperurl or page.codeurl or page.slides -%}
               ,
               {% endif %}
               <a href="{{ page.poster }}" rel="permalink">poster</a>
@@ -83,36 +83,36 @@ layout: default
         {% endif %}
     
         </header>-->
-        <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time>
-          {%- if page.paperurl or page.codeurl or page.youtube or page.othervideo or page.slides or page.tutorialwebsite or page.externalvideo or page.poster  %}
-          [
-          {%- endif -%}
-          {%- if page.paperurl -%}
-              <a href="{{ page.paperurl }}" rel="permalink">pdf</a>
-          {%- endif -%}
-          {%- if page.codeurl -%}
-              {%- if page.paperurl -%}
-              ,
-              {% endif -%}
-              <a href="{{ page.codeurl }}" rel="permalink">code</a>
-          {%- endif -%}
-          {%- if page.slides -%}
-              {%- if page.paperurl or page.codeurl or page.youtube or page.othervideo or page.externalvideo -%}
-              ,
-              {% endif %}
-              <a href="{{ page.slides }}" rel="permalink">slides</a>
-          {%- endif -%}
-          {%- if page.poster -%}
-              {%- if page.paperurl or page.codeurl or page.youtube or page.othervideo or page.slides or page.externalvideo -%}
-              ,
-              {% endif %}
-              <a href="{{ page.poster }}" rel="permalink">poster</a>
-          {%- endif -%}
-          {%- if page.paperurl or page.codeurl or page.slides or page.poster -%}
-          ]
-          {%- endif -%}
-          </p>
-        {% endif %}
+            <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time>
+            {%- if page.paperurl or page.codeurl or page.slides or page.poster  %}
+            [
+            {%- endif -%}
+            {%- if page.paperurl -%}
+                <a href="{{ page.paperurl }}" rel="permalink">pdf</a>
+            {%- endif -%}
+            {%- if page.codeurl -%}
+                {%- if page.paperurl -%}
+                ,
+                {% endif -%}
+                <a href="{{ page.codeurl }}" rel="permalink">code</a>
+            {%- endif -%}
+            {%- if page.slides -%}
+                {%- if page.paperurl or page.codeurl or page.youtube or page.othervideo or page.externalvideo -%}
+                ,
+                {% endif %}
+                <a href="{{ page.slides }}" rel="permalink">slides</a>
+            {%- endif -%}
+            {%- if page.poster -%}
+                {%- if page.paperurl or page.codeurl or page.youtube or page.othervideo or page.slides or page.externalvideo -%}
+                ,
+                {% endif %}
+                <a href="{{ page.poster }}" rel="permalink">poster</a>
+            {%- endif -%}
+            {%- if page.paperurl or page.codeurl or page.slides or page.poster -%}
+            ]
+            {%- endif -%}
+            </p>
+            {% endif %}
 
         <!--{% if page.award %}
         <p><img src="http://harrieo.github.io/images/award-icon.png" alt="Award Icon" width="23"/> This paper won the <i>{{ page.award }}</i>.</p>

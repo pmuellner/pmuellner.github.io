@@ -5,7 +5,7 @@ collection: publications
 permalink: /publication/simulatingprivacydynamics
 excerpt: "In this position paper, we present a conceptual approach to integrate privacy into recommender system simulations, whose key elements are privacy agents. Also, we identify three critical topics for future research in privacy-aware recommender system simulations: (i) How could we model users’ privacy preferences and protect users from performing any privacy-threatening actions? (ii) To what extent do privacy agents modify the users’ document preferences? (iii) How do privacy preferences and privacy protections impact recommendations and privacy of others?"
 date: 2021-08-13
-venue: 'Workshop on Simulation Methods for Recommender Systems 2021'
+venue: 'Workshop on Simulation Methods for Recommender Systems co-located with the ACM Conference on Recommender Systems'
 paperurl: 'http://pmuellner.github.io/files/simulatingprivacydynamics.pdf'
 citation: 'Müllner, P., Lex, E., & Kowald, D. (2021). Position Paper on Simulating Privacy Dynamics in Recommender Systems. arXiv preprint arXiv:2109.06473.'
 codeurl: https://github.com/pmuellner/simulatingprivacydynamics

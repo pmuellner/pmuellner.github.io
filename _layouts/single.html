@@ -81,9 +81,6 @@ layout: default
         {% elsif page.citation %}
           <p>{{ page.citation }} </p>
         {% endif %}-->
-        {% if page.citation %}
-          <p>{{ page.citation }} </p>
-        {% endif %}
         </header>
       {% endunless %}
 
@@ -94,6 +91,10 @@ layout: default
         <!--{% if page.citation %}
           <h3>Recommended citation:</h3><p>{{ page.citation }} </p>
         {% endif %}-->
+        
+        {% if page.citation %}
+          <p>{{ page.citation }} </p>
+        {% endif %}
         
       </section>
 

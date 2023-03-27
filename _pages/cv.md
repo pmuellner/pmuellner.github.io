@@ -34,6 +34,10 @@ Talks
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
+Grants
+======
+* Student Grant: 45th European Conference on Information Retrieval (Dublin, Ireland)
+  
 Program Committee and Reviewing
 ======
 * UMAP 2023: 31th Conference on User Modeling, Adaptation and Personalization

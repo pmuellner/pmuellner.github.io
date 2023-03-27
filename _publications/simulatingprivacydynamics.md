@@ -8,7 +8,7 @@ date: 2021-08-13
 venue: 'Workshop on Simulation Methods for Recommender Systems co-located with the ACM Conference on Recommender Systems'
 paperurl: 'http://pmuellner.github.io/files/simulatingprivacydynamics.pdf'
 citation: 'Müllner, P., Lex, E., & Kowald, D. (2021). Position Paper on Simulating Privacy Dynamics in Recommender Systems. arXiv preprint arXiv:2109.06473.'
-codeurl: https://github.com/pmuellner/simulatingprivacydynamics
+codeurl: 
 slides:
 ---
 

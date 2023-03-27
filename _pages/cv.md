@@ -11,9 +11,10 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* <strong>PhD</strong> Computer Science (expected 2024), <em>User Privacy in Recommender Systems</em>
+* <strong>Dipl.-Ing.(MSc.)</strong> Computer Science (with distinction, 2019), Thesis: <em>Studying Non-mainstream Music Listening Behavior for Fair Music Recommendations</em>
+* <strong>BSc.</strong> Computer Science (2016), Thesis: <em>A Toolkit for activity-based Analysis of Learning Groups within a Social Network</em>
+
 
 Work experience
 ======

@@ -18,8 +18,8 @@ Education
 
 Work Experience
 ======
-* Researcher (Know-Center GmbH, Graz, Austria), since 01/2020
-* Junior Researcher (Know-Center GmbH, Graz, Austria), 04/2019-12/2019
+* since 01/2020, Researcher (Know-Center GmbH, Graz, Austria)
+* 04/2019-12/2019, Junior Researcher (Know-Center GmbH, Graz, Austria)
 
 
 Publications

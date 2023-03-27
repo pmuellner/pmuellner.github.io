@@ -42,7 +42,7 @@ layout: default
           {% if page.authors %}
           <b>{{ page.authors | markdownify | remove: "<p>" | remove: "</p>" }}</b></br>
           {% endif %}
-          Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}.
+          <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}.
          {%- if page.paperurl or page.codeurl or page.slides or page.poster  %}
           [
           {%- endif -%}

@@ -5,4 +5,5 @@ permalink: /talks/robustnessofmetamf
 venue: "43rd European Conference on IR Research (ECIR) 2021"
 date: 2021-03-30
 location: "Online"
+slides: https://github.com/pmuellner/robustnessofmetamf_slides.pdf
 ---

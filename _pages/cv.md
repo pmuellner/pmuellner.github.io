@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* <strong>PhD</strong> Computer Science (expected 2024), <em>User Privacy in Recommender Systems</em>
-* <strong>Dipl.-Ing.(MSc.)</strong> Computer Science (with distinction, 2019), Thesis: <em>Studying Non-mainstream Music Listening Behavior for Fair Music Recommendations</em>
-* <strong>BSc.</strong> Computer Science (2016), Thesis: <em>A Toolkit for activity-based Analysis of Learning Groups within a Social Network</em>
+* <strong>PhD</strong> Computer Science (expected 2024)<br>Thesis: <em>User Privacy in Recommender Systems</em>
+* <strong>Dipl.-Ing.(MSc.)</strong> Computer Science (with distinction, 2019)<br>Thesis: <em>Studying Non-mainstream Music Listening Behavior for Fair Music Recommendations</em>
+* <strong>BSc.</strong> Computer Science (2016)<br>Thesis: <em>A Toolkit for activity-based Analysis of Learning Groups within a Social Network</em>
 
 
 Work experience

@@ -1,5 +1,5 @@
 ---
-title: "User Privacy in Recommender Systmes"
+title: "User Privacy in Recommender Systems"
 collection: talks
 permalink: /talks/userprivacyinrecsys
 venue: "45th European Conference on IR Research (ECIR) 2023"

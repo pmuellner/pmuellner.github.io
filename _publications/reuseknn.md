@@ -2,7 +2,7 @@
 title: "ReuseKNN: Neighborhood Reuse for Differentially Private KNN-Based Recommendations"
 authors: "Peter Müllner, Elisabeth Lex, Markus Schedl, Dominik Kowald"
 collection: publications
-permalink: reuseknn
+permalink: /publication/reuseknn
 excerpt: "To reduce the privacy risk of users in k nearest neighbor recommender systems, existing work applies differential privacy by adding randomness to the neighbors’ ratings, which unfortunately reduces the accuracy of UserKNN. In this work, we introduce ReuseKNN, a novel differentially private KNN-based recommender system. The main idea is to identify small but highly reusable neighborhoods so that (i) only a minimal set of users requires protection with differential privacy and (ii) most users do not need to be protected with differential privacy since they are only rarely exploited as neighbors"
 date: 2023-08-11
 venue: 'ACM Transactions on Intelligent Systems and Technology (TIST)'

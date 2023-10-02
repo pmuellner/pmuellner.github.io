@@ -36,7 +36,8 @@ Talks
   
 Grants
 ======
-* Student Grant: 45th European Conference on Information Retrieval (Dublin, Ireland)
+* Travel Grant: RecSys Summer School, 2023 (Copenhagen, Denmark)
+* Student Grant: 45th European Conference on Information Retrieval, 2023 (Dublin, Ireland)
   
 Program Committee and Reviewing
 ======

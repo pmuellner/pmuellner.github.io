@@ -3,7 +3,7 @@ title: "Robustness of Meta Matrix Factorization Against Strict Privacy Constrain
 authors: "Peter Müllner, Dominik Kowald, and Elisabeth Lex"
 collection: publications
 permalink: /publication/robustnessofmetamf
-excerpt: "we explore the reproducibility of MetaMF, a meta matrix factorization framework introduced by Lin et al and study the impact of meta learning on the accuracy of MetaMF’s recommendations. Also, we investigate the robustness of MetaMF against strict privacy constraints, i.e., how much data a user is willing to share with the recommender system. Our study illustrates that we can reproduce most of Lin et al.’s results. Plus, meta learning is essential for MetaMF’s robustness against strict privacy constraints."
+excerpt: "We explore the reproducibility of MetaMF, a meta matrix factorization framework introduced by Lin et al and study the impact of meta learning on the accuracy of MetaMF’s recommendations. Also, we investigate the robustness of MetaMF against strict privacy constraints, i.e., how much data a user is willing to share with the recommender system. Our study illustrates that we can reproduce most of Lin et al.’s results. Plus, meta learning is essential for MetaMF’s robustness against strict privacy constraints."
 date: 2021-03-30
 venue: '43rd European Conference on IR Research (ECIR)'
 paperurl: 'http://pmuellner.github.io/files/robustnessofmetamf.pdf'

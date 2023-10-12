@@ -1,5 +1,5 @@
 ---
-title: "Differential privacy in collaborative filtering recommender systems: a review"
+title: "Differential privacy in collaborative filtering recommender systems: a review" 
 authors: "Peter Müllner, Elisabeth Lex, Markus Schedl, Dominik Kowald"
 collection: publications
 permalink: /publication/dpinrecommendersystems

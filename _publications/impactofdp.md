@@ -1,5 +1,5 @@
 ---
-title: "The Impact of Differential Privacy on Recommendation Accuracy amd Popularity Bias"
+title: "The Impact of Differential Privacy on Recommendation Accuracy and Popularity Bias"
 authors: "Peter Müllner, Elisabeth Lex, Markus Schedl, Dominik Kowald"
 collection: publications
 permalink: /publication/impactofdp

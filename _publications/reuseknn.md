@@ -7,7 +7,7 @@ excerpt: "To reduce the privacy risk of users in k nearest neighbor recommender 
 date: 2023-08-11
 venue: 'ACM Transactions on Intelligent Systems and Technology (TIST)'
 paperurl: http://pmuellner.github.io/files/reuseknn.pdf
-citation: 'Muellner, P., Schedl, M., Lex, E., Kowald D. ReuseKNN: Neighborhood Reuse for Differentially Private KNN-Based Recommendations. <i>ACM Trans. Intell. Syst. Technol. 14, 5, Article 80, 29 Pages.</i> (2023). https://doi.org/10.1145/3608481'
+citation: 'Muellner, P., Lex, E., Schedl, M., Kowald D. ReuseKNN: Neighborhood Reuse for Differentially Private KNN-Based Recommendations. <i>ACM Trans. Intell. Syst. Technol. 14, 5, Article 80, 29 Pages.</i> (2023). https://doi.org/10.1145/3608481'
 codeurl: https://github.com/pmuellner/reuseknn
 slides:
 ---

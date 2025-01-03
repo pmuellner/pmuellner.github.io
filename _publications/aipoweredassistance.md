@@ -5,7 +5,7 @@ collection: publications
 permalink: /publication/aipoweredassistance
 excerpt: "In this work, we demonstrate an immersive assistance system powered by Artificial Intelligence (AI) that supports users in performing complex tasks in industrial environments. Our system leverages a Virtual Reality (VR) environment that resembles a juice mixer setup. This digital twin of a physical setup simulates complex industrial machinery used to mix preparations or liquids (e.g., similar to the pharmaceutical industry) and includes various containers, sensors, pumps, and flow controllers. The core components of our multimodal AI assistant are a large language model and a speech-to-text model that process a video and audio recording of an expert performing the task in a VR environment. This demonstration showcases the potential of our AI-powered assistant to reduce cognitive load, increase productivity, and enhance safety in industrial environments."
 date: 2024-09-01
-venue: '27Th European Conference on Artificial Intelligence (ECAI)'
+venue: '27th European Conference on Artificial Intelligence (ECAI)'
 paperurl: 'http://pmuellner.github.io/files/aipoweredassistance.pdf'
 
 ---

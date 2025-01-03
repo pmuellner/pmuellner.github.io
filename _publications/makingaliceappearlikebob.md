@@ -5,7 +5,7 @@ collection: publications
 permalink: /publication/makingaliceappearlikebob
 excerpt: "In this work, we introduce SBO, a novel probabilistic obfuscation method for user preference data designed to improve the accuracy–privacy trade-off for recommendations. Our experiments reveal that SBO outperforms comparable approaches with respect to the accuracy–privacy trade-off. Specifically, we can reduce the leakage of users’ protected attributes while maintaining on-par recommendation accuracy."
 date: 2024-08-22
-venue: 'European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML/PKDD)
+venue: 'European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD)'
 paperurl: 'http://pmuellner.github.io/files/makingaliceappearlikebob.pdf'
 citation: 'Escobedo, G. et al. (2024). Making Alice Appear Like Bob: A Probabilistic Preference Obfuscation Method For Implicit Feedback Recommendation Models. In: Machine Learning and Knowledge Discovery in Databases. Research Track. ECML PKDD 2024.'
 

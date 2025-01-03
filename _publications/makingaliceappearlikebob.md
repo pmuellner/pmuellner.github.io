@@ -1,0 +1,13 @@
+---
+title: "Making Alice Appear Like Bob: A Probabilistic Preference Obfuscation Method For Implicit Feedback Recommendation Models"
+authors: "Gustavo Escobedo, Marta Moscati, Peter Müllner, Simone Kopeinik, Dominik Kowald, Elisabeth Lex"
+collection: publications
+permalink: /publication/makingaliceappearlikebob
+excerpt: "In this work, we introduce SBO, a novel probabilistic obfuscation method for user preference data designed to improve the accuracy–privacy trade-off for recommendations. Our experiments reveal that SBO outperforms comparable approaches with respect to the accuracy–privacy trade-off. Specifically, we can reduce the leakage of users’ protected attributes while maintaining on-par recommendation accuracy."
+date: 2024-08-22
+venue: 'European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML/PKDD)
+paperurl: 'http://pmuellner.github.io/files/makingaliceappearlikebob.pdf'
+citation: 'Escobedo, G. et al. (2024). Making Alice Appear Like Bob: A Probabilistic Preference Obfuscation Method For Implicit Feedback Recommendation Models. In: Machine Learning and Knowledge Discovery in Databases. Research Track. ECML PKDD 2024.'
+
+---
+Users' interaction or preference data used in recommender systems carry the risk of unintentionally revealing users' private attributes (e.g., gender or race). This risk becomes particularly concerning when the training data contains user preferences that can be used to infer these attributes, especially if they align with common stereotypes. This major privacy issue allows malicious attackers or other third parties to infer users' protected attributes. Previous efforts to address this issue have added or removed parts of users' preferences prior to or during model training to improve privacy, which often leads to decreases in recommendation accuracy. In this work, we introduce SBO, a novel probabilistic obfuscation method for user preference data designed to improve the accuracy–privacy trade-off for such recommendation scenarios. We apply SBO to three state-of-the-art recommendation models (i.e., BPR, MultVAE, and LightGCN) and two popular datasets (i.e., MovieLens-1M and LFM-2B). Our experiments reveal that SBO outperforms comparable approaches with respect to the accuracy–privacy trade-off. Specifically, we can reduce the leakage of users' protected attributes while maintaining on-par recommendation accuracy.
